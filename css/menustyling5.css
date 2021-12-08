@@ -88,6 +88,9 @@ nav a {
 nav a:hover {
   color: deepskyblue;
 }
+body {
+  background: deepskyblue;
+}
  #other-icons i {
   float: right;
   margin-left: 50px;
