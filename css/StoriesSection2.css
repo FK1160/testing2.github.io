@@ -1,0 +1,232 @@
+#stories-section {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 75%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	margin-left: 18px;	
+}
+#stories-section-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 20%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	margin-left: 760px;	
+	margin-top: -760px;
+	height: 677px;
+}
+@media only screen and (min-width: 280px) {
+
+}
+@media only screen and (min-width: 1024px) {
+#stories-section-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 20%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	margin-left: 800px;	
+	margin-top: -760px;
+	height: 677px;
+}
+}
+@media only screen and (min-width: 1050px) {
+
+}
+@media only screen and (min-width: 1440px) {
+#stories-section-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 20%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	margin-left: 1120px;	
+	margin-top: -741px;
+	height: 657px;
+}
+}
+@media only screen and (min-width: 1500px) {
+#stories-section-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 22%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 10px;
+	margin-left: 1170px;	
+	margin-top: -743px;
+	height: 675px;
+}
+}
+@media only screen and (min-width: 2000px) {
+#stories-section-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 22%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	margin-left: 1965px;	
+	margin-top: -741px;
+	height: 657px;
+} 
+}
+#stories-title {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 40px;
+}
+#page-nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+}
+#page-nav ul li a {
+	text-decoration: none;
+	transition: 0.2s;
+}
+#page-nav ul li a:hover {
+	color: royalblue;
+}
+#page-nav ul {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: -40px;
+}
+#page3 {
+	color: black;
+}
+#page2 {
+	color: black;
+}
+#page1 {
+	color: royalblue;
+}
+#page-nav span {
+	background: royalblue;
+    font-size: 5px;
+	margin-top: 20px;
+	color: royalblue;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 10px;
+	margin-left: -50px;
+}
+#first-story, #second-story, #third-story, #fourth-story, #fifth-story, #sixth-story, #seventh-story, #eight-story, #ninth-story,
+#tenth-story
+ {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	width: 30%;
+	margin-left: 30px;
+	border-radius: 10px;
+	padding-top: 10px;
+
+}
+#stories button {
+	border: red;
+	background: red;
+	padding: 15px 0px 15px 0px;
+	width: 100%;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#stories-sub-section-1 {
+	display: flex;
+margin-right: 30px;
+}
+#stories-sub-section-2 {
+	display: flex;
+margin-right: 30px;
+}
+#stories-sub-section-3 {
+	display: flex;
+margin-right: 30px;
+}
+#stories-sub-section-4 {
+	display: flex;
+margin-right: 30px;
+}
+#stories-sub-section-5 {
+	display: flex;
+margin-right: 30px;
+}
+#first-story button {
+	border: red;
+	background: red;
+}
+#second-story button {
+		border: purple;
+	background: purple;
+}
+#third-story button {
+		border: skyblue;
+	background: skyblue;
+}
+#fourth-story button {
+		border: gold;
+	background: gold;
+}
+#fifthr=-story button {
+		border: blueviolet;
+	background: blueviolet;
+}
+#sixth-story button {
+		border: hotpink;
+	background: hotpink;
+}
+#seventh-story button {
+		border: limegreen;
+	background: limegreen;
+}
+#eight-story button {
+		border: orange;
+	background: orange;
+}
+#ninth-story button {
+		border: violet;
+	background: violet;
+}
+#stories img {
+	width: 20px;
+}
+
+#stories-title--favourites button {
+border: royalblue;
+background: royalblue;
+color: white;
+padding: 15px 15px 15px 15px;
+font-size: 15px;
+width: 50%;
+border-radius: 10px;
+}
+#stories-title--favourites h2 {
+color: royalblue;
+}
+#stories-title-new-stories h2 {
+	color: royalblue;
+}
+#stories-title-coming-soon h3 {
+
+color:royalblue ;
+
+	
+}
+#stories-title-coming-soon i {
+	color: royalblue;
+
+}
+#stories-title-new-stories button {
+	border: royalblue;
+background: royalblue;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 15px;
+}

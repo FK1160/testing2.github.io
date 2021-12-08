@@ -1,0 +1,153 @@
+
+
+/* testiominy section strictly*/
+#testimonies-section-text h2 {
+text-align: center;
+	margin-left: 130px;
+}
+#testimonies-section-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+}
+#testimonies-section-text button:hover {
+	background: darkblue;
+	
+}
+#testimonies-section{
+display: flex;
+	overflow-x: auto;
+	justify-content: flex-start;
+}
+#share-a-testimony,#testimony1, #testimony2, #testimony3, #testimony4, #testimony5,#testimony6, #testimony7 {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+
+	width: 600px;
+margin-left: 10px;
+margin-right: 40px;
+	text-align: center;
+border-radius: 10px;
+}
+
+#share-a-testimony img {
+width: 50px;
+margin-top: 120px;
+
+}
+#testimonies-section h2 {
+	background:white;
+	color:white;
+	padding: 20px 100px 20px 100px;
+	margin-top: 0px;
+}
+.testimony-icon-1 img {
+	width: 70px;
+}
+.testimony-icon-2 img {
+	width: 20px;
+}
+.testimony-icon-3 img {
+	width: 20px;
+}
+
+/*section for frequently asked questions*/
+#questions-asked {
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: auto;
+}
+#ask-a-question, #first-question, #second-question, #third-question, #fourth-question, #fifth-question, 
+#sixth-question, #seventh-question, #eight-question {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+	width: 600px;
+	text-align: center;
+margin-right: 30px;
+margin-left: 10px;
+padding-bottom: 15px;
+border-radius: 10px;
+padding-top: 0px;
+}
+#faq-header-text h2 {
+	text-align: center;
+	margin-left: 120px;
+}
+#faq-header-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+
+}
+#faq-header-text button:hover {
+	background: darkblue;
+	
+}
+#questions-asked h2 {
+	background:white;
+	color:white;
+	padding: 20px 100px 20px 100px;
+	margin-top: 0px;
+}
+#questions-asked img {
+	width: 70px;
+}
+#ask-a-question img {
+	margin-top: 50px;
+	width: 50px;
+}
+/* creative content section*/
+#creative-content-header-text h2, #creative-content-header-text p {
+	text-align: center;
+}
+#creative-content-header-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+}
+#creative-content-header-text button:hover {
+	background: darkblue;
+	
+}
+#creative-videos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 5vw);
+	grid-gap: 5px;
+	grid-row-gap: 190px;
+	overflow-x: hidden;
+}
+#creative-videos video {
+	width: 220px;
+height: 200px;
+}
+@media only screen and (min-width: 1280px) {
+	#creative-videos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 5vw);
+	grid-gap: 125px;
+	grid-row-gap: 190px;
+	overflow-x: hidden;
+}
+}
+
+/*Footer section only*/

@@ -1,0 +1,401 @@
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+nav {
+	display: flex;
+	justify-content: center;
+  position: fixed; /*fixed/sticky position*/
+        z-index: 99; /*make sure it does not overlap*/
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        background: white;
+        width: 100%;
+        margin-left: -8px;
+        margin-top: -8px;
+        padding-bottom:0px;
+        overflow-x: hidden;
+}
+ #time  {
+	font-size: 35px;
+	color: black;
+	cursor: default;
+}
+nav ul li  a {
+	text-decoration: none;
+}
+ #sub-text {
+	font-family: cursive;
+	margin-top: 30px;
+	margin-left: -28px;
+	color: black;
+}
+.color-li-1 a {
+	color: black;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.color-li-1 a:hover {
+	color: darkblue;
+}
+.color-li-3  {
+margin-left: 725px;
+margin-top: -27px;
+}
+.color-li-3 img:hover {
+}
+#nav-items li img {
+	width: 20px;
+}
+#drop {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	z-index: 99;
+	overflow-x: hidden;
+
+}
+#Dropdown {
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+background: deepskyblue;
+padding: 50px 65px 50px 65px;
+border-radius: 10px;
+margin-left: 1000px;
+transition: 0.5s;
+}
+#Dropdown ul li {
+	list-style: none;
+}
+#Dropdown a {
+	text-decoration: none;
+	color: white;
+	margin-left: -50px;
+	transition: 0.2s;
+}
+#Dropdown a:hover {
+	color: darkblue;
+}
+@media only screen and (max-width: 1024px) {
+	#Dropdown {
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+background: deepskyblue;
+padding: 50px 65px 50px 65px;
+border-radius: 10px;
+margin-left: 700px;
+transition: 0.5s;
+margin-top: 33px;
+}
+}
+
+
+#welcome-section {
+	display: flex;
+	justify-content: flex-start;
+}
+#welcome-box {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	width: 1100px;
+	margin-left: 20px;
+	height: 300px;
+	text-align: center;
+}
+#welcome-box button {
+	background: deepskyblue;
+	border: deepskyblue;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	color: white;
+	font-size: 20px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+#welcome-box button:hover {
+	background: darkblue;
+}
+#welcome-box-2 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	margin-left: 50px;
+	height: 150px;
+	
+}
+#lesson-section-text h2 {
+	text-align: center;
+	margin-left: 90px;
+}
+#lesson-section-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+}
+#lesson-section-text button:hover {
+	background:darkblue;
+	
+}
+#lesson-section {
+	display: flex;
+	overflow-x: auto;
+	justify-content: flex-start;
+
+}
+#first-lesson, #second-lesson, #third-lesson, #fourth-lesson, #fifth-lesson, #sixth-lesson, #seventh-lesson {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	justify-content: center;
+width:800px;
+margin-right: 10px;
+margin-left: 20px;
+border-radius: 10px;
+padding-top: 20px;
+}
+
+
+#first-lesson h3, #second-lesson h3, #third-lesson h3, #fourth-lesson h3, #fifth-lesson h3, #sixth-lesson h3, #seventh-lesson h3 {
+	text-align: center;
+}
+#first-lesson p, #second-lesson p, #third-lesson p, #fourth-lesson p, #fifth-lesson p, #sixth-lesson p, #seventh-lesson p {
+	text-align: center;
+	}
+
+#first-lesson img, #second-lesson img, #third-lesson img, #fourth-lesson img, #fifth-lesson img, #sixth-lesson img, #seventh-lesson img     {
+padding-right: 110px;
+	margin-left: -90px;
+	width: 50px;
+}
+::-webkit-scrollbar {
+height:10px;
+width: 10px;
+cursor: pointer;
+
+}
+::-webkit-scrollbar-track {
+border-radius: 20px;
+cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+	background: deepskyblue;
+	transition: 0.5s;
+	cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: darkblue;
+}
+#first-lesson img:hover {
+	background: red;
+}
+
+/*------styling of stories------*/
+@media only screen and (min-width: 320px) {
+#first-lesson, #second-lesson, #third-lesson, #fourth-lesson, #fifth-lesson, #sixth-lesson, #seventh-lesson {
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+width:600px;
+height: 350px;
+margin-right: 30px;
+margin-left: 20px;
+}
+#first-lesson a, #second-lesson a, #third-lesson a, #fourth-lesson a, #fifth-lesson a, #sixth-lesson a, #seventh-lesson a     {
+	margin-left: 200px;
+	
+}
+}
+/* testiominy section strictly*/
+#testimonies-section-text h2 {
+text-align: center;
+	margin-left: 130px;
+}
+#testimonies-section-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+}
+#testimonies-section-text button:hover {
+	background: darkblue;
+	
+}
+#testimonies-section{
+display: flex;
+	overflow-x: auto;
+	justify-content: flex-start;
+}
+#share-a-testimony,#testimony1, #testimony2, #testimony3, #testimony4, #testimony5,#testimony6, #testimony7 {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+
+	width: 600px;
+margin-left: 10px;
+margin-right: 40px;
+	text-align: center;
+border-radius: 10px;
+}
+
+#share-a-testimony img {
+width: 50px;
+margin-top: 120px;
+
+}
+#testimonies-section h2 {
+	background:white;
+	color:white;
+	padding: 20px 100px 20px 100px;
+	margin-top: 0px;
+}
+.testimony-icon-1 img {
+	width: 70px;
+}
+.testimony-icon-2 img {
+	width: 20px;
+}
+.testimony-icon-3 img {
+	width: 20px;
+}
+
+/*section for frequently asked questions*/
+#questions-asked {
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: auto;
+}
+#ask-a-question, #first-question, #second-question, #third-question, #fourth-question, #fifth-question, 
+#sixth-question, #seventh-question, #eight-question {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+	width: 600px;
+	text-align: center;
+margin-right: 30px;
+margin-left: 10px;
+padding-bottom: 15px;
+border-radius: 10px;
+padding-top: 0px;
+}
+#faq-header-text h2 {
+	text-align: center;
+	margin-left: 120px;
+}
+#faq-header-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+
+}
+#faq-header-text button:hover {
+	background: darkblue;
+	
+}
+#questions-asked h2 {
+	background:white;
+	color:white;
+	padding: 20px 100px 20px 100px;
+	margin-top: 0px;
+}
+#questions-asked img {
+	width: 70px;
+}
+#ask-a-question img {
+	margin-top: 50px;
+	width: 50px;
+}
+/* creative content section*/
+#creative-content-header-text h2, #creative-content-header-text p {
+	text-align: center;
+}
+#creative-content-header-text button {
+	background: deepskyblue;
+	border: deepskyblue;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	float: right;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: -55px;
+}
+#creative-content-header-text button:hover {
+	background: darkblue;
+	
+}
+#creative-videos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 5vw);
+	grid-gap: 5px;
+	grid-row-gap: 190px;
+	overflow-x: hidden;
+}
+#creative-videos video {
+	width: 220px;
+height: 200px;
+}
+@media only screen and (min-width: 1280px) {
+	#creative-videos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 5vw);
+	grid-gap: 125px;
+	grid-row-gap: 190px;
+	overflow-x: hidden;
+}
+}
+
+/*Footer section only*/
+#footer-section {
+	display: flex;
+	justify-content: center;
+	margin-top: -200px;
+	background-image: url(images/thecross.jpg);
+	background-size: contain;
+
+}
+#footer-section-1 {
+		text-align: center;
+		color: white;
+		padding: 100px 30px 100px 30px;	
+		font-size: 18px;
+}
+#footer-section-1 input[type="email"] {
+	width: 300px;
+	border-color: black;
+	height: 35px;
+	font-size: 15px;
+}
+#footer-section-1 button {
+	border: deepskyblue;
+	background: deepskyblue;
+	padding: 15px 15px 15px 15px;
+	border-radius: 10px;
+	color: white;
+	margin-left: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-size: 15px;
+}
+#footer-section-1 button:hover {
+	background: darkblue;
+}
+#footer-section-1 a {
+color: white;
+}
