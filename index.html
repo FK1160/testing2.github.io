@@ -14,8 +14,10 @@ session_start();
 <!--- 360px 375px 425px 768px 1024px  1440px 2560px--->
 <div id="nav-box">
 <br>
+<div id="menu-icon">
 <i id="ListMenu" onclick="showmenu(this)" style="font-size:30px; color:white;" class="bi bi-list"></i>
 <i id="XMenu" onclick="showmenu(this)" style="font-size:30px; color:white;" class="bi bi-x"></i>
+</div>
 	<div id="input">
 	<input type="text" name="" placeholder="Search products here......">
 <div id="search">
@@ -37,18 +39,28 @@ session_start();
 </body>
 </html>
 <script type="text/javascript">
-	var ShowMenu = document.getElementById("ListMenu");
-	var CloseMenu = document.getElementById("XMenu");
-	ShowMenu.style.display = "block";
-	CloseMenu.style.display ="none";
+	var ShowListMenu = document.getElementById("ListMenu");
+	var CloseListMenu = document.getElementById("XMenu");
+
+ShowListMenu.style.display = "block";
+CloseListMenu.style.display ="none";
+
 function showmenu(x) {
-	if(ShowMenu.style.display == "block") {
-ShowMenu.style.display = "none";
-CloseMenu.style.display = "block";
+if(CloseListMenu.style.display == "none") {
+	CloseListMenu.style.display = "block";
+	ShowListMenu.style.display = "none";
+
+	
+
+	
 }
 else {
-	ShowMenu.style.display = "block";
-CloseMenu.style.display = "none";
+	CloseListMenu.style.display = "none";
+	ShowListMenu.style.display = "block";
+
+	
+	
 }
 }
+
 </script>
