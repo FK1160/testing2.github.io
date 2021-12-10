@@ -1,0 +1,287 @@
+#nav-box {
+  box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  margin-top: -8px;
+  margin-right: -7px;
+  margin-left: -8px;
+  background:coral;
+  padding-bottom: 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -52px;
+  
+}
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 30px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+nav a:hover {
+  color: gold;
+}
+.bi-question-circle  {
+  font-size:25px; 
+  color:white;
+}
+.bi-question-circle:hover {
+  color: gold;
+}
+#nav-box h1 {
+  margin-left: 50px;
+  color: white;
+  margin-top: -33px;
+}
+ #input input  {
+background: orange;
+margin-left: 200px;
+margin-top: 10px;
+border-radius: 10px;
+width: 400px;
+border: orange;
+height: 30px;
+color: white;
+}
+#search {
+  margin-left: 600px;
+  margin-top: -30px;
+}
+.bi-search {
+  font-size: 25px;
+}
+#icons {
+  margin-top: -3px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+.bi-question-circle  {
+  font-size:30px; 
+  color:white;
+}
+.bi-question-circle:hover {
+  color: gold;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 70px;
+  display: inline-block;
+}
+#icons {
+  margin-top: -5px;
+}
+}
+@media only screen and (min-width:1800px ) {
+   #input input  {
+background: orange;
+margin-left: 200px;
+margin-top: 10px;
+border-radius: 10px;
+width: 800px;
+border: orange;
+height: 30px;
+color: white;
+}
+#search {
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+}
+@media only screen and (min-width: 1024px) { 
+.bi-list {
+  display: none;
+}
+.bi-x {
+  display: none;
+}
+.bi-search {
+ margin-left: -45px;
+ font-size:25px; 
+ color:white;
+}
+}
+/* for mobile phones*/
+
+@media only screen and (max-width: 1000px) { 
+nav ul {
+  display: none;
+  }
+#input input  { 
+  display: none;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: 120px;
+}
+#nav-box h1 {
+  text-align: center;
+  color: white;
+  margin-top: -38px;
+}
+.bi-list {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 15Spx;
+}
+#nav-box h1 {
+  margin-left: 0px;
+  color: white;
+}
+
+}
+@media only screen and (max-width: 768px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: 90px;
+}
+}
+@media only screen and (max-width: 713px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: 40px;
+}
+}
+@media only screen and (max-width: 640px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -30px;
+}
+.bi-list {
+  margin-left: 30px;
+}
+}
+@media only screen and (max-width: 600px) { 
+.bi-list {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -80px;
+}
+
+  }
+  @media only screen and (max-width: 540px) { 
+
+.bi-list {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -130px;
+}
+  }
+    @media only screen and (max-width: 500px) { 
+
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -160px;
+}
+  }
+     @media only screen and (max-width: 426px) { 
+
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -230px;
+}
+  }
+    @media only screen and (max-width: 400px) { 
+
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -270px;
+}
+  }
+     @media only screen and (max-width: 360px) { 
+#search-button {
+margin-left: 280px;
+margin-top: -58px;
+
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -290px;
+}
+  }
+     @media only screen and (max-width: 320px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -330px;
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+  }
+       @media only screen and (max-width: 280px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -365px;
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+}
+       @media only screen and (max-width: 240px) { 
+.bi-search {
+  color: white;
+  font-size: 25px;
+  margin-left: -405px;
+}
+.bi-list {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
