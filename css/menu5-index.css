@@ -1,0 +1,638 @@
+#nav-box {
+  box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  margin-top: -8px;
+  margin-right: -7px;
+  margin-left: -8px;
+  background:coral;
+  padding-bottom: 10px;
+}
+/*everything down to a certain point is for 1024px and some are for other laptops*/
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -52px;
+  
+}
+nav ul li {
+  list-style: none;
+  margin-left: 18px;
+  margin-right: 30px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+nav a:hover {
+  color: gold;
+}
+.bi-question  {
+  font-size:30px; 
+  color:white;
+  cursor: pointer;
+}
+.bi-question:hover {
+  color: gold;
+}
+#nav-box h1 {
+  margin-left: 50px;
+  color: white;
+  margin-top: -33px;
+}
+#nav-box a {
+  text-decoration: none;
+  color: white;
+  }
+ #input input  {
+
+background: orange;
+margin-left: 180px;
+margin-top: 10px;
+border-radius: 10px;
+width: 400px;
+border: orange;
+height: 30px;
+color: white;
+}
+#search {
+  margin-left: 600px;
+  margin-top: -30px;
+}
+.bi-search {
+  font-size: 25px;
+}
+#search_two  {
+  display: none;
+}
+#icons {
+  margin-top: -3px;
+}
+.bi-arrow-down-short {
+  font-size:25px;
+color: white;
+transition: 0.2s;
+  cursor: pointer;
+}
+.bi-arrow-down-short:hover {
+  color: gold;
+}
+.bi-arrow-up-short {
+  font-size:25px;
+color: white;
+transition: 0.2s;
+  cursor: pointer;
+  margin-left: 0px;
+  display: none;
+  margin-top: -2px;
+}
+.bi-arrow-up-short:hover {
+  color: gold;
+}
+#arrow-down {
+  margin-left: -50px;
+  margin-top: 2px;
+}
+.bi-person {
+  font-size: 25px;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.bi-person:hover {
+  color: gold;
+}
+#person {
+  margin-top: -2px;
+}
+#question {
+  margin-top: -2px;
+}
+#arrow-down2 {
+  margin-top: -29px;
+  margin-left: 20px;
+}
+.bi-search {
+ margin-left: -45px;
+ font-size:25px; 
+ color:white;
+}
+#DropdownProfile {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 600px;
+  display: none;
+}  
+#DropdownProfile a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: black;
+}
+#DropdownProfile ul li {
+  list-style: none;
+  margin-top:20px;
+}
+
+#DropdownHelpBox {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 830px;
+  display: none;
+}  
+#DropdownHelpBox a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: black;
+}
+#DropdownHelpBox ul li {
+  list-style: none;
+  margin-top:20px;
+}
+#menu-nav {
+  display: none;
+}
+
+#XMenu {
+ display: none;
+}
+#XMenu2 {
+display: none;
+}
+/*everything up is for 1024px and some are for other laptops*/
+
+
+@media only screen and (min-width: 1280px) {
+  #DropdownProfile {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 850px;
+} 
+#DropdownHelpBox {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 1050px;
+} 
+}
+@media only screen and (min-width: 1022px) { 
+#menu-icon {
+  display: none;
+}
+}
+@media only screen and (min-width: 1440px) {
+  #DropdownProfile {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 1000px;
+}  
+ #DropdownHelpBox {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 1200px;
+}  
+
+  #question {
+  margin-top: 0px;
+}
+.bi-question-circle  {
+  font-size:30px; 
+  color:white;
+}
+#arrow-down {
+  margin-left: -70px;
+  margin-top: 1px;
+}
+.bi-question-circle:hover {
+  color: gold;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 0px;
+  margin-right: 70px;
+  display: inline-block;
+}
+
+#icons {
+  margin-top: -5px;
+}
+#menu-icon {
+  display: none;
+}
+}
+@media only screen and (min-width:1800px ) {
+   #input input  {
+background: orange;
+margin-left: 200px;
+margin-top: 10px;
+border-radius: 10px;
+width: 800px;
+border: orange;
+height: 30px;
+color: white;
+}
+#search {
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+#menu-icon {
+  display: none;
+}
+  #DropdownProfile {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 2000px;
+} 
+ #DropdownHelpBox {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  margin-left: 2300px;
+}  
+}
+/* for mobile phones*/
+/*for menu icons*/
+@media only screen and (max-width: 1022px) { 
+nav ul {
+  display: none;
+  }
+  #DropdownProfile {
+    display: none;
+  }
+#input input  { 
+  display: none;
+}
+.bi-search {
+  display: none;
+}
+#search_two  {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin-left: 300px;
+}
+#nav-box h1 {
+  text-align: center;
+  color: white;
+  margin-top: -38px;
+}
+.bi-list {
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+.bi-x {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+#nav-box h1 {
+  margin-left: 0px;
+  color: white;
+}
+#menu-nav {
+  display: block;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  background: coral;
+  width: 43%;
+  padding-top: 15px;
+  position: fixed;
+  padding-bottom: 15px;
+  margin-top: -73px;
+  height: 100%;
+}
+#menu-nav ul li {
+  list-style: none;
+  margin-top: 25px;
+}
+#XMenu {
+  font-size:35px; 
+  color:white;
+ margin-left: 48px;
+   margin-top: 14px;
+   z-index: 99;
+   
+}
+#XMenu2 {
+  font-size:35px; 
+  color:white;
+ margin-left: -10px;
+   margin-top: 14px;
+ 
+   
+}
+}
+
+@media only screen and (max-width: 801px) { 
+nav ul {
+  display: none;
+  }
+#input input  { 
+  display: none;
+}
+.bi-search {
+  display: none;
+}
+#search_two {
+    color: white;
+  font-size: 25px;
+  margin-left: 130px;
+}
+#nav-box h1 {
+  text-align: center;
+  color: white;
+  margin-top: -38px;
+}
+.bi-list {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+#nav-box h1 {
+  margin-left: 0px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) { 
+.bi-search {
+ display: none;
+}
+#search_two {
+   color: white;
+  font-size: 25px;
+  margin-left: 90px;
+}
+.bi-x {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+}
+@media only screen and (max-width: 713px) { 
+.bi-search {
+display: none;
+}
+#search_two {
+    color: white;
+  font-size: 25px;
+  margin-left: 40px;
+}
+.bi-x {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+}
+@media only screen and (max-width: 640px) { 
+.bi-search {
+  display: none;
+}
+#search_two {
+  color: white;
+  font-size: 25px;
+  margin-left: -30px;
+}
+.bi-list {
+  margin-left: 30px;
+}
+.bi-x {
+   margin-left: 30px;
+   margin-top: 20px;
+}
+#menu-nav {
+
+  width: 40%;
+
+}
+}
+@media only screen and (max-width: 600px) { 
+.bi-list {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 45px;
+   margin-top: 20px;
+}
+.bi-search {
+ display: none;
+}
+#search_two {
+   color: white;
+  font-size: 25px;
+  margin-left: -80px;
+}
+
+  }
+  @media only screen and (max-width: 540px) { 
+
+.bi-list {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 35px;
+   margin-top: 20px;
+}
+.bi-search {
+ display: none;
+}
+#search_two {
+ color: white;
+  font-size: 25px;
+  margin-left: -130px;
+  }
+  #menu-nav {
+
+  width: 45%;
+
+}
+}
+    @media only screen and (max-width: 500px) { 
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.bi-search {
+display: none;
+}
+#search_two {
+    color: white;
+  font-size: 25px;
+  margin-left: -160px;
+  }
+     @media only screen and (max-width: 426px) { 
+}
+#menu-nav {
+
+  width: 55%;
+
+}
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.bi-search {
+ display: none;
+}
+#search_two {
+   color: white;
+  font-size: 25px;
+  margin-left: -230px;
+  }
+}
+    @media only screen and (max-width: 400px) { 
+      #menu-nav {
+  width: 60%;
+}
+.bi-list {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.bi-search {
+display: none;
+}
+#search_two {
+    color: white;
+  font-size: 25px;
+  margin-left: -270px;
+  }
+}
+
+     @media only screen and (max-width: 360px) { 
+
+      #menu-nav {
+  width: 68%;
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 15px;
+   margin-top: 20px;
+}
+.bi-search {
+  display: none;
+}
+#search_two {
+  color: white;
+  font-size: 25px;
+  margin-left: -290px;
+  }
+}
+     @media only screen and (max-width: 320px) { 
+      #menu-nav {
+  width: 70%;
+}
+.bi-search {
+ display: none;
+}
+#search_two {
+   color: white;
+  font-size: 25px;
+  margin-left: -330px;
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.bi-x {
+   margin-left: 15px;
+   margin-top: 10px;
+}
+  }
+       @media only screen and (max-width: 280px) { 
+              #menu-nav {
+  width: 79%;
+}
+.bi-search {
+  display: none;
+}
+#search_two {
+  color: white;
+  font-size: 25px;
+  margin-left: -365px;
+}
+.bi-list {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 15px;
+   margin-top: 20px;
+}
+}
+       @media only screen and (max-width: 240px) { 
+              #menu-nav {
+  width: 80%;
+}
+.bi-search {
+ display: none;
+}
+#search_two {
+   color: white;
+  font-size: 25px;
+  margin-left: -405px;
+}
+.bi-list {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.bi-x {
+   margin-left: 0px;
+   margin-top: 20px;
+}
+
