@@ -1,149 +1,251 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" href="css/menu5-index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="bootstrap-icons/icons-1.5.0/font/bootstrap-icons.css">
-	<title>DaPilla/Home/</title>
+	<link rel="stylesheet" type="text/css" href="css/index2.css">
+	<link rel="stylesheet" type="text/css" href="css/section2.css">
+	<title>DaPilla/Home</title>
 </head>
-<body>
-<!--- 360px 375px 425px 768px 1024px  1440px 2560px--->
-<div id="nav-box">
-<br>
-<div id="menu-icon">
-<i id="ListMenu" onclick="showmenu(this)" style="font-size:30px; color:white;" class="bi bi-list"></i>
-<i id="XMenu" onclick="showmenu(this)"  class="bi bi-x"></i>
+<body onclick="bodyclick()">
+<header>
+	<!-- this is for  laptops nav-->
+<nav>
+	<div id="navbar1">
+		<div id="head_name">
+<a href="index.php"><h2>DaPilla</h2></a>
 </div>
-<div id="menu-nav">
+
+<input type="text" name="search_products"><i class="bi bi-search"></i>
 <ul>
-	<i id="XMenu2" onclick="showmenu(this)"  class="bi bi-x">&nbsp;&nbsp;&nbsp;&nbsp;DaPilla</i>
-	<li><a href="">Profile</a></li>
-	<li><a href="">Products</a></li>
+	
+	<li><a href="index.php">Home</a></li>
 	<li><a href="">Categories</a></li>
-	<li><a href="">Reviews</a></li>
-	<li><a href="">About Us</a></li>
-	<li><a href="">Contact Us</a></li>
 </ul>
+<div id="icons">
+	<i id="person" onclick="showpersonbox(this)" class="bi bi-person"></i>
+	<i id="arrow1" onclick="showpersonbox(this)"  class="bi bi-arrow-down-short"></i>
+	<i id="arrow2" onclick="showpersonbox(this)" class="bi bi-arrow-up-short"></i>
+	<i onclick="showhelpbox(this)" class="bi bi-question-circle"></i>
 </div>
-	<div id="input">
-	<input type="text" name="" placeholder="Search products here......">
-<div id="search">
+</div>
+<!-- this is for the end of laptops nav-->
+<!-- this is for the  phones nav-->
+	<div id="navbar2">
+	<i id="List" onclick="showmenu(this)" class="bi bi-list"></i>
+	<i id="X" onclick="showmenu(this)" class="bi bi-x"></i>
+<h2>DaPilla</h2>
+
 	<i class="bi bi-search"></i>
-		<a id="search_link" href="search_query.html"><i id="search_two" class="bi bi-search"></i></a>
-</div>
-</div>
-<h1><a href="index.php">DaPilla</a></h1>
 
-<nav id="nav">
-	<ul>
-		<li><a id="categories" href="#">Categories</a></li>
-		<li><a href="#">Products</a></li>
-		<div id="person">
-			<li><i id="person-icon" onclick="dropdownprofile(this)" class="bi bi-person"></i></li>
-		</div>
-			<div id="arrow-down">
-				<li><i id="arrow-down-icon" onclick="dropdownprofile(this)" class="bi bi-arrow-down-short"></i>
-				<i id="arrow-up-icon" onclick="dropdownprofile(this)" class="bi bi-arrow-up-short"></i></li>
-			</div>
-			<div id="icons">
-				<div id="question">
-			<li><i onclick="dropdownhelpbox(this)" id="question-icon" class="bi bi-question"></i></li>
-		</div>
-			<div id="arrow-down2">
-			<li><i id="arrow-down-icon2" onclick="dropdownhelpbox(this)" class="bi bi-arrow-down-short"></i>
-		    <i id="arrow-up-icon2" onclick="dropdownhelpbox(this)" class="bi bi-arrow-up-short"></i></li>
-		</div>
-		</div>
-	</ul>
-</div>
+	</div>
+	<!-- this is for the end phones nav-->
+</nav>
+</header>
 <br><br><br><br><br><br>
-
-<div id="DropdownProfile">
+<!-- this is for  laptops-->
+<div id="PersonBoxMain">
+<div id="person-box">
 <ul>
-	<li><a href="">Login</a></li>
-    <li><a href="">Sign Up</a></li>
+	<li><a href="#">Login</a></li>
+		<li><a href="#">Sign Up</a></li>
+</ul>
+</div>
+</div>
+<!-- this is for the end laptops-->
+<!-- this is for  laptops-->
+<div id="HelpBoxMain">
+<div id="help-box">
+<ul>
+	<li><a href="#">About Us</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Ask A Question?</a></li>	
 </ul>
 	</div>
-
-	<div id="DropdownHelpBox">
+</div>
+<!-- this is for the end laptops-->
+<!-- this is for the menu of phones-->
+<div id="MenuMain">
+<div id="MenuBox">
 <ul>
-	<li><a href="">Contact Us</a></li>
-	<li><a href="">About U</a></li>
-    <li><a href="">Feedback</a></li>
+	<a href="#"><li>Home</li></a>
+	<br>
+	
+	<a href="#"><li>Products</li></a>
+	<br>
+	
+	<a href="#"><li>Categories</li></a>
+	<br>
+	
+	<a href="#"><li>Take Our Tour Guide</li></a>
+	<br>
+
+	<a href="#"><li>Login</li></a>
+	<br>
+	
+	<a href="#"><li>Sign Up</li></a>
+	<br>
+	
+	<a href="#"><li>About Us</li></a>
+	<br>
+	
+	<a href="#"><li>Contact Us</li></a>
+	<br>
+	
+	<a href="#"><li>Ask A Question?</li></a>
+	<br>
+	<br>
 </ul>
+<center>
+<div id="text_info">
+<p>DaPilla Essentials &copy; 2022- </p>
+<p>All rights reserved.</p>
+</div>
+
+<div id="links_icons">
+	<a href=""><i class="bi bi-facebook"></i></a>
+	<a href=""><i class="bi bi-whatsapp"></i></a>
+	<a href=""><i class="bi bi-instagram"></i></a>
+	<a href=""><i class="bi bi-twitter"></i></a>
+	<a href=""><i class="bi bi-telegram"></i></a>
+	<br>
+	<p><i class="bi bi-phone"></i>&nbsp;&nbsp;<a id="phone" href="#">+234 973 8383 383</a></p>
+		<p><i class="bi bi-phone"></i>&nbsp;&nbsp;<a href="#">+234 343 8903 005</a></p>
+	
+		<br>
+	</div>
+</div>
+</center>
+</div>
+<!-- this is for the end of menu for phones-->
+<section>
+	<div id="section1">
+<div id="offers">
+	<div id="offer-1">
+		<h2>Thrusday, 30th December 2021.</h2>
+		<h2>Welcome to Dapilla</h2>
+		<p>An online shopping store</p>
 	</div>
 
+	<div id="offer-2">
+	<h3>Take a look at what's new, DaPilla organic honey, not just any honey but our very own honey.</h3>
+	<p>It's selling fast so be one of the lucky people and get yourself a DaPilla organic honey only at &#8358;4,000.00 today!</p>
+	<button>Get Now</button>
+	</div>
+
+<div id="offer-3">
+	<h3>There's always a product for every of our customer and you are our customer so let's have a look, shall we?</h3>
+	<p>We have bountiful products for you to choose</p>
+	<button>Visit Our Products Page</button>
+	</div>
+
+<div id="offer-4">
+<h3>Hey, check out this recent offer</h3>
+<h4>Halogen Airfryer....</h4><p> &#8358; 14,000.00</p>
+<p>Now &#8358; 8,000.00, get it now before offer expires....offer expires in the next 30hrs.</p>
+<button>Buy Now!</button>
+	</div>
+
+	<div id="offer-1">
+		<h3>Need help?</h3>
+		<button>Take Our Tour Guide</button>
+	</div>
+
+	<div id="offer-1">
+		<h3>Easy Payments, Fast Checkouts</h3>
+		<h3>Door to door services....customer service, that's us, DaPilla...we got you.</h3>
+	</div>
+
+	<div id="offer-1">
+		<h3>Want to know more about us?</h3>
+		<button>About us</button>
+	</div>
+	
+
+</div>
+	</div>
+</section>
 </body>
 </html>
+
 <script type="text/javascript">
-	// for the first list and x icon
-	var ShowListMenu = document.getElementById("ListMenu");
-	var CloseListMenu = document.getElementById("XMenu");
-	var CloseListMenu2 = document.getElementById("XMenu2");
-var Menu = document.getElementById("menu-nav");
-ShowListMenu.style.display = "block";
-CloseListMenu.style.display ="none";
-CloseListMenu2.style.display ="none";
-Menu.style.display="none";
+	var b = false;
+	var MenuBox = document.getElementById('MenuBox');
+var List = document.getElementById('List');
+var X = document.getElementById('X');
 
+MenuBox.style.display = "none";
+List.style.display="block";
 function showmenu(x) {
-if(CloseListMenu.style.display == "none") {
-	CloseListMenu.style.display = "block";
-	CloseListMenu2.style.display = "block";
-	ShowListMenu.style.display = "none";
-	Menu.style.display="block";	
+if (List.style.display=="block") {
+	List.style.display="none";
+	MenuBox.style.display="block";
+	X.style.display="block";
 }
 else {
-	CloseListMenu.style.display = "none";
-	CloseListMenu2.style.display = "none";
-	ShowListMenu.style.display = "block";
-	Menu.style.display="none";
+	MenuBox.style.display="none";
+	List.style.display="block";
+	X.style.display="none";
 }
+b = true;
 }
-// this is for when the menu nav comes up in mobile devices
 
-// for the profile section of the nav
-	var ArrowDown = document.getElementById("arrow-down-icon");
-	var ArrowUp = document.getElementById("arrow-up-icon");
-	var DropdownProfile  = document.getElementById("DropdownProfile");
 
-ArrowDown.style.display = "block";
-ArrowUp.style.display ="none";
-DropdownProfile.style.display ="none";
-function dropdownprofile(x) {
-if(ArrowDown.style.display == "block") {
-	ArrowDown.style.display = "none";
-	ArrowUp.style.display = "block";	
-	DropdownProfile.style.display ="block";
+	var b = false;
+	var PersonBox = document.getElementById('person-box');
+var Arrow1 = document.getElementById('arrow1');
+var Arrow2 = document.getElementById('arrow2');
+
+PersonBox.style.display = "none";
+Arrow1.style.display="block";
+
+function showpersonbox(x) {
+if (Arrow1.style.display=="block") {
+	Arrow1.style.display="none";
+	PersonBox.style.display="block";
+	Arrow2.style.display="block";
 }
 else {
-	ArrowDown.style.display = "block";
-	ArrowUp.style.display = "none";
-	DropdownProfile.style.display ="none";
+	PersonBox.style.display="none";
+	Arrow1.style.display="block";
+	Arrow2.style.display="none";
 }
+b = true;
 }
+var b = false;
 
-// for the help section of the nav
+	var HelpBox = document.getElementById('help-box');
 
-	var ArrowDown2 = document.getElementById("arrow-down-icon2");
-	var ArrowUp2 = document.getElementById("arrow-up-icon2");
-	var DropdownHelpBox  = document.getElementById("DropdownHelpBox");
 
-ArrowDown2.style.display = "block";
-ArrowUp2.style.display ="none";
-DropdownHelpBox.style.display ="none";
-function dropdownhelpbox(x) {
-if(ArrowDown2.style.display == "block") {
-	ArrowDown2.style.display = "none";
-	ArrowUp2.style.display = "block";	
-	DropdownHelpBox.style.display ="block";
+HelpBox.style.display = "none";
+
+function showhelpbox(x) {
+if (HelpBox.style.display=="none") {
+	HelpBox.style.display="block";
+	
 }
 else {
-	ArrowDown2.style.display = "block";
-	ArrowUp2.style.display = "none";
-	DropdownHelpBox.style.display ="none";
+	HelpBox.style.display="none";
+
 }
+b = true;
 }
+
+function bodyclick() {
+   
+    if(!b) HelpBox.style.display = 'none';
+     if(!b) PersonBox.style.display = 'none';
+     if(!b) Arrow2.style.display = 'none';
+     if(!b) Arrow1.style.display = 'block';
+      if(!b) MenuBox.style.display = 'none';
+       if(!b) X.style.display = 'none';
+        if(!b) List.style.display = 'block';
+    b = false;
+}
+
+
+
 </script>

@@ -1,0 +1,19 @@
+#person-box {
+	position: fixed;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: white;
+}
+#person-box ul li  a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+	cursor: pointer;
+}
+#person-box ul li  a:hover {
+	color: blueviolet;
+}
+#person-box ul li   {
+	list-style: none;
+	margin-top: 15px;
+}

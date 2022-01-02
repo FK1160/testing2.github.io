@@ -1,0 +1,56 @@
+#person-box {
+	position: fixed;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: white;
+	padding: 30px 40px 30px 20px;
+
+}
+#person-box ul li  a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+	cursor: pointer;
+}
+#person-box ul li  a:hover {
+	color: deepskyblue;
+}
+#person-box ul li   {
+	list-style: none;
+	margin-top: 20px;
+}
+#PersonBoxMain {
+display: flex;
+justify-content: center;
+margin-left: 100px;
+font-family: sans-serif;
+}
+
+
+#help-box {
+	position: fixed;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: white;
+	padding: 30px 40px 30px 20px;
+
+}
+#help-box ul li  a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+	cursor: pointer;
+}
+#help-box ul li  a:hover {
+	color: deepskyblue;
+}
+#help-box ul li   {
+	list-style: none;
+	margin-top: 20px;
+}
+#HelpBoxMain {
+display: flex;
+justify-content: center;
+margin-left: 600px;
+font-family: sans-serif;
+}

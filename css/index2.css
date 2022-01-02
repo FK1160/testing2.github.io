@@ -1,0 +1,438 @@
+body {
+	margin: 0px;
+
+}
+/* this part is for the design of phones*/
+@media only screen and (max-width: 900px) {
+	#person-box {
+		display: none;
+	}
+	#help-box {
+		display: none;
+	}
+#navbar1 {
+	display: none;
+}
+
+nav {
+	position: fixed;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	background: white;
+	width: 100%;
+	background:blueviolet; 
+	font-family: sans-serif;
+}
+#navbar2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+#navbar2 h2 {
+	margin-top: 7px;
+	color: white;
+	transition: 0.2s;
+}
+#navbar2 h2:hover {
+	color: deepskyblue;
+}
+.bi-search  {
+	margin-left: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 20px;
+	color: white;
+	
+}
+.bi-search:hover {
+	color: deepskyblue;
+}
+
+.bi-list, .bi-x {
+	font-size: 25px;
+	margin-top: 7px;
+	margin-left: -10px;
+	color: white;
+	
+}
+.bi-list:hover, .bi-x:hover {
+	color: deepskyblue;
+}
+.bi-x{
+display: none;
+}
+
+#MenuMain {
+	display: block;
+	
+}
+#MenuBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	overflow-y: auto;
+	width: 40%;
+	height: 80%;
+	background: blueviolet;
+	font-family: sans-serif;
+	color: white;
+  margin-top: -47px;
+}
+#MenuBox ul li {
+	list-style: none;
+	margin-top: 30px;
+}
+
+#MenuBox ul a {
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+#MenuBox ul a:hover {
+	color: deepskyblue;
+}
+#MenuBox ul hr {
+	background: white;
+}
+#text_info {
+
+}
+#links_icons .bi-whatsapp, #links_icons .bi-facebook, #links_icons .bi-twitter, #links_icons .bi-instagram, #links_icons .bi-telegram, 
+#links_icons .bi-phone {
+font-size: 25px;
+margin-left: 20px;
+}
+
+#links_icons {
+	margin-left: -20px;
+}
+#links_icons a {
+	color: white;
+	transition: 0.2s;
+}
+#links_icons a:hover {
+	color: deepskyblue;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+#MenuBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	overflow-y: auto;
+	width: 50%;
+	height: 80%;
+	background: blueviolet;
+	font-family: sans-serif;
+	color: white;
+  margin-top: -47px;
+}
+}
+@media only screen and (max-width: 400px) {
+#MenuBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	overflow-y: auto;
+	width: 70%;
+	height: 80%;
+	background: blueviolet;
+	font-family: sans-serif;
+	color: white;
+  margin-top: -47px;
+}
+}
+@media only screen and (max-width: 360px) {
+#MenuBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	overflow-y: auto;
+	width: 80%;
+	height: 80%;
+	background: blueviolet;
+	font-family: sans-serif;
+	color: white;
+  margin-top: -47px;
+}
+}
+@media only screen and (max-width: 280px) {
+#MenuBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	overflow-y: auto;
+	width: 85%;
+	height: 80%;
+	background: blueviolet;
+	font-family: sans-serif;
+	color: white;
+  margin-top: -47px;
+}
+}
+/* this  is the end for the design of phones*/
+
+
+
+
+
+
+
+
+
+/* this part is for the design of laptops*/
+@media only screen and (min-width: 900px) {
+#MenuMain {
+	display: none;
+}
+
+#navbar2 {
+	display: none;
+}
+
+nav {
+	position: fixed;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	background:blueviolet; 
+	width: 100%;
+	padding-bottom: 10px;
+	font-family: sans-serif;
+}
+#navbar1 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+#head_name a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+#head_name a:hover {
+color: deepskyblue;
+}
+#navbar1 ul {
+	margin-top: 25px;
+}
+#navbar1 ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 0px;
+	margin-right: 30px;
+	font-size: 18px;
+}
+#navbar1 ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	transition: 0.2s;
+}
+#navbar1 ul li a:hover {
+	color: deepskyblue;
+	
+}
+#icons {
+	display: flex;
+}
+#icons .bi-arrow-up-short {
+	margin-top: 21px;
+	font-size: 25px;
+color: white;
+display: none;
+cursor: pointer;
+transition: 0.2s;
+}
+#icons .bi-arrow-up-short:hover {
+color: deepskyblue;
+}
+#icons .bi-arrow-down-short {
+	margin-top: 21px;
+	font-size: 25px;
+color: white;
+cursor: pointer;
+transition: 0.2s;
+}
+#icons .bi-arrow-down-short:hover {
+	color: deepskyblue;
+}
+#icons .bi-person {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: -30px;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+#icons .bi-person:hover {
+	color: deepskyblue;
+}
+#icons .bi-question-circle{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+}
+#icons .bi-question-circle:hover{
+	color: deepskyblue;
+}
+input[name="search_products"] {
+	height: 30px;
+	color: white;
+	width: 40%;
+	margin-top: 20px;
+	border-radius: 40px;
+	font-size: 15px;
+	margin-left: 30px;
+	background: mediumpurple;
+	border: mediumpurple;
+}
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -70px;
+	color: white;
+}
+}
+		@media only screen and (min-width: 980px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -75px;
+}
+}
+		@media only screen and (min-width: 1024px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -90px;
+}
+}
+	@media only screen and (min-width: 1100px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -100px;
+}
+	}
+		@media only screen and (min-width: 1200px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -110px;
+}
+	}
+		@media only screen and (min-width: 1280px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -160px;
+}
+#icons {
+display: flex;
+	
+}
+#icons .bi-arrow-up-short {
+	margin-top: 21px;
+	font-size: 25px;
+	display: none;
+}
+#icons .bi-arrow-down-short {
+	margin-top: 21px;
+	font-size: 25px;
+
+}
+#icons .bi-person {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: -100px;
+
+}
+#icons .bi-question-circle{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 30px;
+	
+}
+	}
+			@media only screen and (min-width: 1400px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -170px;
+}
+#icons {
+display: flex;
+	
+}
+#icons .bi-arrow-up-short {
+	margin-top: 21px;
+	font-size: 25px;
+	display: none;
+}
+#icons .bi-arrow-down-short {
+	margin-top: 21px;
+	font-size: 25px;
+
+}
+#icons .bi-person {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: -120px;
+
+}
+#icons .bi-question-circle{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+	
+}
+	}
+				@media only screen and (min-width: 1500px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -190px;
+}
+
+	}
+					@media only screen and (min-width: 1700px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -230px;
+}
+
+	}
+
+					@media only screen and (min-width: 2000px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -250px;
+}
+#icons .bi-person {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: -200px;
+
+}
+	}
+					@media only screen and (min-width: 2500px) { 
+.bi-search {
+	font-size: 20px;
+	margin-top: 24px;
+	margin-left: -350px;
+}
+
+#icons .bi-person {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: -280px;
+
+}
+
+	}
+	/* this  is the end for the design of laptops*/
