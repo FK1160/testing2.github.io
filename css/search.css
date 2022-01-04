@@ -1,0 +1,53 @@
+#SearchMain {
+	display: flex;
+	justify-content: center;
+}
+body {
+	margin: 0px;
+}
+#SearchContent {
+	display: flex;
+	justify-content: space-around;
+
+}
+#SearchBox {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+width: 100%;
+height: 300px;
+background: blueviolet;
+position: fixed;
+margin-top: -110px;
+}
+#SearchContent
+.bi-arrow-left {
+	font-size: 25px;
+	display: block;
+	color: white;
+}
+#SearchContent
+.bi-x {
+	font-size: 25px;
+	display: none;
+	color: white;
+}
+#SearchContent
+input[name="search_products"] {
+	width: 60%;
+	border: blueviolet;
+	background: blueviolet;
+	color: white;
+
+}
+#SearchContent
+input[name="search_products"]::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+#SearchContent
+input[name="search_products"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+#SearchContent
+input[name="search_products"]::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
