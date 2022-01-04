@@ -1,0 +1,344 @@
+<?php 
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="bootstrap-icons/icons-1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/index5.css">
+	<link rel="stylesheet" type="text/css" href="css/section4.css">
+	<link rel="stylesheet" type="text/css" href="css/search3.css">
+	<title>DaPilla/Home</title>
+</head>
+<body id="Body" onclick="bodyclick()">
+<header>
+	<!-- this is for  laptops nav-->
+<nav onclick="togglemenuclick()">
+	<div id="navbar1">
+		<div id="head_name">
+<a href="index.php"><img style="width:100px;" src="logo/logo.png"></a>
+</div>
+
+<input type="text" name="search_products"><i class="bi bi-search"></i>
+<ul>
+	
+	<li><a href="index.php">Home</a></li>
+	<li><a href="">Categories</a></li>
+</ul>
+<div id="icons">
+	<i id="person" onclick="showpersonbox(this)" class="bi bi-person"></i>
+	<i id="arrow1" onclick="showpersonbox(this)"  class="bi bi-arrow-down-short"></i>
+	<i id="arrow2" onclick="showpersonbox(this)" class="bi bi-arrow-up-short"></i>
+	<i onclick="showhelpbox(this)" class="bi bi-question-circle"></i>
+</div>
+</div>
+<!-- this is for the end of laptops nav-->
+<!-- this is for the  phones nav-->
+	<div id="navbar2">
+	<i id="List" onclick="showmenu(this)" class="bi bi-list"></i>
+<a href="index.php"><img style="width:100px;" src="logo/logo.png"></a>
+<div id="search_icon">
+	<i onclick="searchform(this)" class="bi bi-search"></i>
+</div>
+	</div>
+	<!-- this is for the end phones nav-->
+</nav>
+</header>
+<br><br><br><br><br><br>
+<div id="SearchMain">
+<div id="SearchBox">
+	<div id="SearchContent">
+<i onclick="closesearchform(this)" class="bi bi-arrow-left"></i>
+<form action="search.php" method="POST">
+<input id="inputBoxMain" class=" inputBox" type="text" name="search_products" placeholder="Search awesome products">
+</form>
+<i id="Xbtn" onclick="RemoveWordInInput()" class="bi bi-x"></i>
+
+</div>
+</div>
+</div>
+<!-- this is for  laptops-->
+<div id="PersonBoxMain">
+<div id="person-box">
+<ul>
+	<li><a href="#">Login</a></li>
+		<li><a href="#">Sign Up</a></li>
+</ul>
+</div>
+</div>
+<!-- this is for the end laptops-->
+<!-- this is for  laptops-->
+<div id="HelpBoxMain">
+<div id="help-box">
+<ul>
+	<li><a href="#">About Us</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">Ask A Question?</a></li>	
+</ul>
+	</div>
+</div>
+<!-- this is for the end laptops-->
+<!-- this is for the menu of phones-->
+<div id="MenuMain" onclick="togglemenuclick2()">
+<div id="MenuBox">
+<ul>
+	<center>
+	<a style="margin-top: -10px; margin-left: -70px;" href="index.php"><img style="width:100px;" src="logo/logo.png">
+</a>
+</center>
+	<a href="#"><li>Home</li></a>
+	<br>
+	
+	<a href="#"><li>Products</li></a>
+	<br>
+	
+	<a href="#"><li>Categories</li></a>
+	<br>
+	
+	<a href="#"><li>Take Our Tour Guide</li></a>
+	<br>
+
+	<a href="#"><li>Login</li></a>
+	<br>
+	
+	<a href="#"><li>Sign Up</li></a>
+	<br>
+	
+	<a href="#"><li>About Us</li></a>
+	<br>
+	
+	<a href="#"><li>Contact Us</li></a>
+	<br>
+	
+	<a href="#"><li>Ask A Question?</li></a>
+	<br>
+	<br>
+</ul>
+<center>
+<div id="text_info">
+<p>DaPilla Essentials &copy; 2022- </p>
+<p>All rights reserved.</p>
+</div>
+
+<div id="links_icons">
+	<a href=""><i class="bi bi-facebook"></i></a>
+	<a href=""><i class="bi bi-whatsapp"></i></a>
+	<a href=""><i class="bi bi-instagram"></i></a>
+	<a href=""><i class="bi bi-twitter"></i></a>
+	<a href=""><i class="bi bi-telegram"></i></a>
+	<br>
+	<p><i class="bi bi-phone"></i>&nbsp;&nbsp;<a id="phone" href="#">+234 973 8383 383</a></p>
+		<p><i class="bi bi-phone"></i>&nbsp;&nbsp;<a href="#">+234 343 8903 005</a></p>
+	
+		<br>
+	</div>
+</div>
+</center>
+</div>
+<!-- this is for the end of menu for phones-->
+<section onclick="bodyclick2()">
+	<div id="section1">
+<div id="offers">
+	<div id="offer-1">
+		<h2>Thrusday, 30th December 2021.</h2>
+		<h2>Welcome to Dapilla</h2>
+		<p>An online shopping store</p>
+	</div>
+
+	<div id="offer-2">
+	<h3>Take a look at what's new, DaPilla organic honey, not just any honey but our very own honey.</h3>
+	<p>It's selling fast so be one of the lucky people and get yourself a DaPilla organic honey only at &#8358;4,000.00 today!</p>
+	<button>Get Now</button>
+	</div>
+
+<div id="offer-3">
+	<h3>There's always a product for every of our customer and you are our customer so let's have a look, shall we?</h3>
+	<p>We have bountiful products for you to choose</p>
+	<button>Visit Our Products Page</button>
+	</div>
+
+<div id="offer-4">
+<h3>Hey, check out this recent offer</h3>
+<h4>Halogen Airfryer....</h4><p> &#8358; 14,000.00</p>
+<p>Now &#8358; 8,000.00, get it now before offer expires....offer expires in the next 30hrs.</p>
+<button>Buy Now!</button>
+	</div>
+
+	<div id="offer-1">
+		<h3>Need help?</h3>
+		<button>Take Our Tour Guide</button>
+	</div>
+
+	<div id="offer-1">
+		<h3>Easy Payments, Fast Checkouts</h3>
+		<h3>Door to door services....customer service, that's us, DaPilla...we got you.</h3>
+	</div>
+
+	<div id="offer-1">
+		<h3>Want to know more about us?</h3>
+		<button>About us</button>
+	</div>
+	
+
+</div>
+	</div>
+</section>
+</body>
+</html>
+<script type="text/javascript">
+	var b = false;
+	var MenuBox = document.getElementById('MenuBox');
+var List = document.getElementById('List');
+MenuBox.style.display = "none";
+List.style.display="block";
+function showmenu(x) {
+if (List.style.display=="block") {
+	List.style.display="none";
+	MenuBox.style.display="block";
+}
+else {
+	MenuBox.style.display="none";
+	List.style.display="block";
+}
+b = true;
+}
+
+function togglemenuclick() {
+	  if(!b) MenuBox.style.display = 'none';
+        if(!b) List.style.display = 'block';
+      
+}
+
+function togglemenuclick2() {
+	  if(!b) MenuBox.style.display = 'block';
+  
+        if(!b) List.style.display = 'none';
+      
+}
+
+
+
+
+
+
+
+	var b = false;
+	var PersonBox = document.getElementById('person-box');
+var Arrow1 = document.getElementById('arrow1');
+var Arrow2 = document.getElementById('arrow2');
+
+PersonBox.style.display = "none";
+Arrow1.style.display="block";
+
+function showpersonbox(x) {
+if (Arrow1.style.display=="block") {
+	Arrow1.style.display="none";
+	PersonBox.style.display="block";
+	Arrow2.style.display="block";
+}
+else {
+	PersonBox.style.display="none";
+	Arrow1.style.display="block";
+	Arrow2.style.display="none";
+}
+b = true;
+}
+var b = false;
+
+	var HelpBox = document.getElementById('help-box');
+
+
+HelpBox.style.display = "none";
+
+function showhelpbox(x) {
+if (HelpBox.style.display=="none") {
+	HelpBox.style.display="block";
+	
+}
+else {
+	HelpBox.style.display="none";
+
+}
+b = true;
+}
+// for clicking outside to remove various forms below
+function bodyclick() {
+   
+    if(!b) HelpBox.style.display = 'none';
+     if(!b) PersonBox.style.display = 'none';
+     if(!b) Arrow2.style.display = 'none';
+     if(!b) Arrow1.style.display = 'block';
+
+
+      
+    b = false;
+}
+
+
+var b = false;
+// this is to toggle display on search form
+var SearchForm = document.getElementById("SearchMain");
+var Offers = document.getElementById("offers");
+SearchForm.style.display="none";
+var inputBoxFocus = document.getElementById("inputBoxMain");
+function searchform(x) {
+if(SearchForm.style.display=="none") {
+	SearchForm.style.display="block";
+	
+	// this is to autofocus the input
+inputBoxFocus.focus();
+}
+else {
+	SearchForm.style.display="none";
+}
+b = true;
+}
+
+
+
+var b = false;
+// this is to close the search form using the left arrow icon
+var SearchForm = document.getElementById("SearchMain");
+
+
+function closesearchform(x) {
+
+
+
+	SearchForm.style.display="none";
+	Offers.style.opacity ="1";
+b= true;
+}
+
+//this below is for clicking outside to remove searh form
+
+function bodyclick2() {
+   
+      if(!b) SearchForm.style.display = 'none';
+       if(!b) MenuBox.style.display = 'none';
+        if(!b) List.style.display = 'block';
+    b = false;
+}
+// this is for when the user has started typing
+
+  let inputBox = document.querySelector('.inputBox')
+      
+        inputBox.addEventListener('input', function() {
+            document.querySelector('#Xbtn').style.display
+                    = "block";
+        });
+// this is for when the user clicks the"X" button on the search form
+
+var RemoveWord = document.getElementById("inputBoxMain");
+
+var Xbtn = document.getElementById("Xbtn");
+function  RemoveWordInInput () {
+RemoveWord.value = '';
+Xbtn.style.display ="none";
+}
+
+
+</script>
