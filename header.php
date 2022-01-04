@@ -19,13 +19,13 @@ session_start();
 <nav onclick="togglemenuclick()">
 	<div id="navbar1">
 		<div id="head_name">
-<a href="index.php"><img style="width:100px;" src="logo/logo.png"></a>
+<a href="index.html"><img style="width:100px;" src="logo/logo.png"></a>
 </div>
 
 <input type="text" name="search_products"><i class="bi bi-search"></i>
 <ul>
 	
-	<li><a href="index.php">Home</a></li>
+	<li><a href="index.html">Home</a></li>
 	<li><a href="">Categories</a></li>
 </ul>
 <div id="icons">
@@ -39,7 +39,7 @@ session_start();
 <!-- this is for the  phones nav-->
 	<div id="navbar2">
 	<i id="List" onclick="showmenu(this)" class="bi bi-list"></i>
-<a href="index.php"><img style="width:100px;" src="logo/logo.png"></a>
+<a href="index.html"><img style="width:100px;" src="logo/logo.png"></a>
 <div id="search_icon">
 	<i onclick="searchform(this)" class="bi bi-search"></i>
 </div>
@@ -86,7 +86,7 @@ session_start();
 <div id="MenuBox">
 <ul>
 	<center>
-	<a style="margin-top: -10px; margin-left: -70px;" href="index.php"><img style="width:100px;" src="logo/logo.png">
+	<a style="margin-top: -10px; margin-left: -70px;" href="index.html"><img style="width:100px;" src="logo/logo.png">
 </a>
 </center>
 	<a href="#"><li>Home</li></a>
